@@ -312,3 +312,34 @@ Example Call:
 ```
 http://dwp.joedrumgoole.com:3000/geog-types/la
  ```
+
+Response Format/Example:
+```json
+[
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -2.8878755399382374,
+            53.503639700290606
+          ],
+          ...
+        ],
+      ]
+    },
+    "properties": {
+      "PCON13CDO": "C48",
+      "code": "E14000775",
+      "name": "Knowsley"
+    }
+  },
+  ...
+]
+```
+
+The response is an array of GeoJSON `Feature` objects. Each `Feature` object is a GeoJSON `geometry` with additional `properties`.
+
+The `properties` for these objects contain the `name` and `code` (used for _Geographic Area_ in other endpoints) for the given area as well as additional properties that vary depending on the **Geography Type** (in this example, the `PCON13CDO` for `wpc`).
