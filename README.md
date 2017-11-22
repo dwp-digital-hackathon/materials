@@ -152,8 +152,6 @@ This endpoint returns the demographics (gender and age) data for the provided **
 
 _Geography Codes_ for Geographic Areas can be obtained using the **Geographies** endpoint for Local Authorities (`la`) and Westminster Parliamentary Constituencies (`wpc`).
 
-When
-
 Example Call:
 ```
 http://dwp.joedrumgoole.com:3000/datasets/cae/metrics/totals/geog-types/wpc?geogCode=E14000775
@@ -215,6 +213,7 @@ http://dwp.joedrumgoole.com:3000/datasets/{datasetCode}/metrics/{metric}/geog-ty
 
 This endpoint returns data for all time for Great Britain for the given **Dataset and Metric** (and **Geography Type** - just in case the different types use difference data sources etc).
 
+Example Call:
 ```
 http://dwp.joedrumgoole.com:3000/datasets/cae/metrics/totals/geog-types/wpc
 ```
@@ -309,7 +308,7 @@ http://dwp.joedrumgoole.com:3000/geog-types/{geographyType}
 
 This endpoint returns data in the [GeoJSON](http://geojson.org/) format for the provided **Geography Type**.
 
-Example:
+Example Call:
 ```
 http://dwp.joedrumgoole.com:3000/geog-types/la
  ```
