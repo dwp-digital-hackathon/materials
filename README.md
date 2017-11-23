@@ -91,6 +91,9 @@ Example Call:
 ```
 http://dwp.joedrumgoole.com:3000/datasets/cae/metrics/totals/geog-types/wpc/available-dates
 ```
+
+[Available Dates for Dataset](http://dwp.joedrumgoole.com:3000/datasets/cae/metrics/totals/geog-types/wpc/available-dates)
+
 The example will return the available **Month and Year** combinations for the `Westminster Parliamentary Constituency` **Geography Type** for the `Carers Allowance` **Dataset** with the `totals` **Metric** (Number of people entitled to Carers Allowance).
 
 Response Format/Example:
@@ -116,6 +119,8 @@ Example Call:
 ```
 http://dwp.joedrumgoole.com:3000/datasets/cae/metrics/totals/geog-types/wpc?month=2&year=2017
 ```
+
+[Totals Data for All Areas by Month and Year](http://dwp.joedrumgoole.com:3000/datasets/cae/metrics/totals/geog-types/wpc?month=2&year=2017)
 
 Response Format/Example:
 ```json
@@ -162,6 +167,8 @@ Example Call:
 ```
 http://dwp.joedrumgoole.com:3000/datasets/cae/metrics/totals/geog-types/wpc?geogCode=E14000775
 ```
+
+[All Demographics Data for a Single Area](http://dwp.joedrumgoole.com:3000/datasets/cae/metrics/totals/geog-types/wpc?geogCode=E14000775)
 
 Response Format/Example:
 ```json
@@ -224,6 +231,8 @@ Example Call:
 http://dwp.joedrumgoole.com:3000/datasets/cae/metrics/totals/geog-types/wpc
 ```
 
+[All Totals Data for Great Britain](http://dwp.joedrumgoole.com:3000/datasets/cae/metrics/totals/geog-types/wpc)
+
 Response Format/Example:
 ```json
 [
@@ -249,6 +258,8 @@ Example Call:
 ```
 http://dwp.joedrumgoole.com:3000/datasets/cae/metrics/totals/geog-types/wpc/time-series
 ```
+
+[All Totals Data for All Areas (Time Series)](http://dwp.joedrumgoole.com:3000/datasets/cae/metrics/totals/geog-types/wpc/time-series)
 
 Response Format/Example:
 ```json
@@ -293,6 +304,8 @@ Example Call:
 http://dwp.joedrumgoole.com:3000/datasets/cae/geog-types/wpc/meta
 ```
 
+[Metadata](http://dwp.joedrumgoole.com:3000/datasets/cae/geog-types/wpc/meta)
+
 Response Format/Example:
 ```json
 {
@@ -318,6 +331,8 @@ Example Call:
 ```
 http://dwp.joedrumgoole.com:3000/geog-types/la
  ```
+
+[Geographies](http://dwp.joedrumgoole.com:3000/geog-types/la)
 
 Response Format/Example:
 ```json
