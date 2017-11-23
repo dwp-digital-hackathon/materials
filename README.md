@@ -8,6 +8,12 @@ All of the endpoints are REST endpoints and use HTTP `GET` method only - so ther
 
 To test the APIs, you can use tools such as [Postman](https://www.getpostman.com/), or even just a browser (as the endpoints all only accept HTTP `GET` methods) to get sample responses.
 
+## External APIs
+
+* Stat-Xplore front end https://stat-xplore.dwp.gov.uk/webapi
+* Stat-Xplore API documentation https://stat-xplore.dwp.gov.uk/webapi/online-help/Open-Data-API.html
+* Nomis front end https://www.nomisweb.co.uk/
+
 ## Variables
 
 The endpoint paths contain some variable values. These are the different variables and possible values:
